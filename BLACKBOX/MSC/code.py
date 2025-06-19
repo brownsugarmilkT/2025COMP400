@@ -1,38 +1,44 @@
 import json
 from collections import defaultdict
 
-# Even ALice
-alice = [
+EVEN_ROWS = [
     [0, 0, 0],
     [0, 1, 1],
     [1, 0, 1],
     [1, 1, 0],
 ]
 
-def decode_alice(i): # 0-2 rows 3-5 columns 
-    return ("row", i) if i < 3 else ("col", i - 3)
+ODD_COLS = [
+    [0, 0, 1],
+    [0, 1, 0],
+    [1, 0, 0],
+    [1, 1, 1],
+]
 
-def intersection_bit(typeA, vecA, bob_index):
-    return vecA[bob_index]
+def decode(idx):
+    return ("row", idx) if idx < 3 else ("col", idx - 3)
 
-f_candidates = defaultdict(list)
+def bit_at(vec, j):
+    return vec[j]
 
-for a in range(6):          # Alice input 0–5
-    typeA, _ = decode_alice(a)
+candidates = defaultdict(list)
 
-    for b in range(3):      # Bob input 0–2 
-        for vecA in alice:
-            bob = intersection_bit(typeA, vecA, b)
-            f_candidates[(a, b)].append({
-                "alice_type": typeA,
-                "alice_vec": vecA,
-                "bob_bit": bob,
+for a in range(6):                        # Alice input 0-5
+    a_type, _ = decode(a)
+    pool = EVEN_ROWS if a_type == "row" else ODD_COLS
+
+    for b in range(3):                    # Bob input 0-2 
+        for line in pool:
+            candidates[(a, b)].append({
+                "alice_type": a_type,
+                "alice_vec": line,
+                "bob_bit":    bit_at(line, b),
             })
 
-
-f_candidates_json = {
-    f"{a},{b}": outs for (a, b), outs in sorted(f_candidates.items())
-}
-
 with open("msc_blackbox_outputs.json", "w") as f:
-    json.dump(f_candidates_json, f, indent=4)
+    json.dump(
+        {f"{a},{b}": outs for (a, b), outs in sorted(candidates.items())},
+        f, indent=4
+    )
+
+

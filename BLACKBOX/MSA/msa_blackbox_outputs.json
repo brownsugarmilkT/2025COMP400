@@ -1,466 +1,524 @@
 {
+    "0,0": [
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
     "0,1": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "0,2": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "0,3": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -468,41 +526,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -510,13 +540,41 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -524,13 +582,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -538,13 +596,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -552,13 +610,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -568,13 +626,13 @@
     "0,4": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -582,69 +640,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -652,13 +654,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
                 1,
-                1,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -666,13 +668,69 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -682,13 +740,13 @@
     "0,5": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -696,13 +754,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -710,41 +768,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 1,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -752,13 +782,41 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -766,13 +824,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -780,13 +838,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -796,465 +854,523 @@
     "1,0": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "1,1": [
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "1,2": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "1,3": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -1262,41 +1378,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -1304,13 +1392,41 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -1318,13 +1434,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -1332,13 +1448,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -1346,13 +1462,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -1362,13 +1478,13 @@
     "1,4": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -1376,69 +1492,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -1446,13 +1506,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
                 1,
-                1,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -1460,13 +1520,69 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -1476,13 +1592,13 @@
     "1,5": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -1490,13 +1606,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -1504,41 +1620,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 1,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -1546,13 +1634,41 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -1560,13 +1676,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -1574,13 +1690,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -1590,493 +1706,523 @@
     "2,0": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "2,1": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
-                0
+                0,
+                1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "2,2": [
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "2,3": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2084,13 +2230,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
+                0,
+                0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2098,13 +2244,41 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2112,13 +2286,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -2126,13 +2300,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2140,13 +2314,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -2156,69 +2330,13 @@
     "2,4": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2226,13 +2344,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                0,
+                0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2240,13 +2358,13 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
                 1,
-                1,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2254,13 +2372,69 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -2270,97 +2444,13 @@
     "2,5": [
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "row",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2368,13 +2458,97 @@
         },
         {
             "alice_type": "row",
-            "vecA": [
+            "alice_vec": [
+                0,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                0,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
                 1,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "row",
+            "alice_vec": [
+                1,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2384,241 +2558,355 @@
     "3,0": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 1,
                 1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "3,1": [
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
+                0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                1,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                1,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
+                0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
+                0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 1,
                 1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "3,2": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
                 0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "3,3": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2626,55 +2914,27 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 1,
                 0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
-            "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_type": "col",
+            "bob_vec": [
                 0,
+                1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
-            "bob_type": "row",
-            "vecB": [
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2682,57 +2942,29 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 1,
                 1,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
             ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
             ]
         }
     ],
     "3,4": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2740,13 +2972,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2754,69 +2986,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2824,69 +3000,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -2894,13 +3014,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2908,13 +3028,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2922,13 +3042,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -2936,13 +3056,125 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -2952,13 +3184,13 @@
     "3,5": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -2966,13 +3198,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -2980,69 +3212,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3050,69 +3226,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3120,13 +3240,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -3134,13 +3254,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -3148,13 +3268,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3162,13 +3282,125 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3178,341 +3410,341 @@
     "4,0": [
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
+                0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 1,
-                1
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
                 1,
                 0,
                 1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
-                0,
+                1,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 1,
                 1,
                 1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "4,1": [
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
+                1,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
                 1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
+                0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
                 1,
-                0
+                0,
+                1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 1,
                 1,
                 1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
             ]
         }
     ],
     "4,2": [
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
                 0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
                 1,
                 0,
                 1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                0,
+                1,
                 0
             ]
         }
@@ -3520,13 +3752,13 @@
     "4,3": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -3534,13 +3766,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -3548,69 +3780,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3618,69 +3794,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3688,13 +3808,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -3702,13 +3822,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -3716,13 +3836,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3730,13 +3850,183 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "4,4": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3746,13 +4036,13 @@
     "4,5": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -3760,13 +4050,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -3774,69 +4064,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3844,69 +4078,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3914,13 +4092,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -3928,13 +4106,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -3942,13 +4120,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -3956,13 +4134,125 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -3972,113 +4262,113 @@
     "5,0": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
+                0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 1,
-                1
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
                 0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
                 0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
                 0,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
                 1
             ]
         }
@@ -4086,113 +4376,113 @@
     "5,1": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
                 1,
                 0,
                 1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 0,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
-                1,
+                0,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
                 0,
-                0,
+                1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 1,
-                1,
+                0,
                 1
             ]
         }
@@ -4200,127 +4490,127 @@
     "5,2": [
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "row",
-            "vecB": [
-                1,
+            "bob_vec": [
+                0,
                 1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 0,
                 1
             ],
             "bob_type": "row",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
+            "bob_vec": [
                 1,
                 0,
-                1
-            ],
-            "bob_type": "row",
-            "vecB": [
-                1,
-                1,
                 1
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "row",
-            "vecB": [
+            "bob_vec": [
                 0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
                 1,
                 0
             ]
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
-                1,
-                0
-            ],
-            "bob_type": "row",
-            "vecB": [
+            "alice_vec": [
                 1,
                 0,
                 0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "row",
+            "bob_vec": [
+                1,
+                0,
+                1
             ]
         }
     ],
     "5,3": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -4328,13 +4618,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -4342,69 +4632,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -4412,69 +4646,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -4482,13 +4660,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -4496,13 +4674,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -4510,13 +4688,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -4524,13 +4702,125 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -4540,13 +4830,13 @@
     "5,4": [
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -4554,13 +4844,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -4568,69 +4858,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                0,
-                0
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "alice_vec": [
                 0,
                 0,
                 1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -4638,69 +4872,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
+            "alice_vec": [
                 0,
-                1,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                1,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
                 0,
                 1
             ],
             "bob_type": "col",
-            "vecB": [
-                0,
-                0,
-                1
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                0,
-                1,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
-                1,
-                0,
-                0
-            ]
-        },
-        {
-            "alice_type": "col",
-            "vecA": [
-                1,
-                0,
-                1
-            ],
-            "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 1,
                 1
@@ -4708,13 +4886,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 0,
                 1
@@ -4722,13 +4900,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 0,
                 1,
                 0
@@ -4736,13 +4914,13 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
                 1,
                 0,
                 0
@@ -4750,13 +4928,183 @@
         },
         {
             "alice_type": "col",
-            "vecA": [
-                1,
+            "alice_vec": [
+                0,
                 1,
                 0
             ],
             "bob_type": "col",
-            "vecB": [
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                1,
+                1
+            ]
+        }
+    ],
+    "5,5": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_type": "col",
+            "bob_vec": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_type": "col",
+            "bob_vec": [
                 1,
                 1,
                 1

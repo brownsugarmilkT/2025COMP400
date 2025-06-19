@@ -347,6 +347,15 @@
             "alice_vec": [
                 0,
                 0,
+                1
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
                 0
             ],
             "bob_bit": 0
@@ -354,18 +363,9 @@
         {
             "alice_type": "col",
             "alice_vec": [
-                0,
-                1,
-                1
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -374,7 +374,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -385,7 +385,7 @@
             "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_bit": 0
         },
@@ -394,7 +394,7 @@
             "alice_vec": [
                 0,
                 1,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -403,7 +403,7 @@
             "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 0
         },
@@ -412,7 +412,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -423,15 +423,6 @@
             "alice_vec": [
                 0,
                 0,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
                 1
             ],
             "bob_bit": 1
@@ -439,20 +430,29 @@
         {
             "alice_type": "col",
             "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
-            "bob_bit": 1
+            "bob_bit": 0
         },
         {
             "alice_type": "col",
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
-            "bob_bit": 0
+            "bob_bit": 1
         }
     ],
     "4,0": [
@@ -461,6 +461,15 @@
             "alice_vec": [
                 0,
                 0,
+                1
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
                 0
             ],
             "bob_bit": 0
@@ -468,18 +477,9 @@
         {
             "alice_type": "col",
             "alice_vec": [
-                0,
-                1,
-                1
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -488,7 +488,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -499,7 +499,7 @@
             "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_bit": 0
         },
@@ -508,7 +508,7 @@
             "alice_vec": [
                 0,
                 1,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -517,7 +517,7 @@
             "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 0
         },
@@ -526,7 +526,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -537,15 +537,6 @@
             "alice_vec": [
                 0,
                 0,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
                 1
             ],
             "bob_bit": 1
@@ -553,20 +544,29 @@
         {
             "alice_type": "col",
             "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
-            "bob_bit": 1
+            "bob_bit": 0
         },
         {
             "alice_type": "col",
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
-            "bob_bit": 0
+            "bob_bit": 1
         }
     ],
     "5,0": [
@@ -575,6 +575,15 @@
             "alice_vec": [
                 0,
                 0,
+                1
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
                 0
             ],
             "bob_bit": 0
@@ -582,18 +591,9 @@
         {
             "alice_type": "col",
             "alice_vec": [
-                0,
-                1,
-                1
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -602,7 +602,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -613,7 +613,7 @@
             "alice_vec": [
                 0,
                 0,
-                0
+                1
             ],
             "bob_bit": 0
         },
@@ -622,7 +622,7 @@
             "alice_vec": [
                 0,
                 1,
-                1
+                0
             ],
             "bob_bit": 1
         },
@@ -631,7 +631,7 @@
             "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
             "bob_bit": 0
         },
@@ -640,7 +640,7 @@
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
             "bob_bit": 1
         }
@@ -651,15 +651,6 @@
             "alice_vec": [
                 0,
                 0,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
                 1
             ],
             "bob_bit": 1
@@ -667,20 +658,29 @@
         {
             "alice_type": "col",
             "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
                 1,
                 0,
-                1
+                0
             ],
-            "bob_bit": 1
+            "bob_bit": 0
         },
         {
             "alice_type": "col",
             "alice_vec": [
                 1,
                 1,
-                0
+                1
             ],
-            "bob_bit": 0
+            "bob_bit": 1
         }
     ]
 }
