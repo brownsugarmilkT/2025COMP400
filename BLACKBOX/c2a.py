@@ -27,8 +27,6 @@ def map_inputs_msc_to_msa(a_msc, b_msc):
 
 # reduction verification code starts here 
 all_ok = True
-failures = []
-
 for a_msc in range(6):
     for b_msc in range(3):
         a_msa, b_msa = map_inputs_msc_to_msa(a_msc, b_msc)
@@ -44,7 +42,6 @@ for a_msc in range(6):
             derived_bit = alice_vec[b_msc]  # intersection bit
             if (tuple(alice_vec), derived_bit) not in msc_outs:
                 all_ok = False
-                failures.append((a_msc, b_msc, alice_vec, derived_bit))
                 break  # this output invalidates reduction for this input
 
 print("Reduction MS‑C to MS‑A valid for all inputs:", all_ok)

@@ -21,14 +21,14 @@ cols = [
 # To store valid outputs for each input (a, b) where a, b are indexed on {1, 2, 3}
 f_candidates = defaultdict(list)
 
-for a in [1, 2, 3]:  # Alice input (row)
-    for b in [1, 2, 3]:  # Bob input (column)
+for a in [0, 1, 2]:  # Alice input (row)
+    for b in [0, 1, 2]:  # Bob input (column)
         for row in rows:
             for col in cols:
                 if row[b - 1] == col[a - 1]:
                     f_candidates[(a, b)].append({
-                        "row": row,
-                        "col": col
+                        "alice_vec": row,
+                        "bob_vec": col
                     })
 
 
