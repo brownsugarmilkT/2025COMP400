@@ -113,7 +113,7 @@
             "bob_bit": 0
         }
     ],
-    "1,0": [
+    "1,3": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -151,7 +151,7 @@
             "bob_bit": 1
         }
     ],
-    "1,1": [
+    "1,4": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -189,7 +189,7 @@
             "bob_bit": 1
         }
     ],
-    "1,2": [
+    "1,5": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -227,7 +227,7 @@
             "bob_bit": 0
         }
     ],
-    "2,0": [
+    "2,6": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -265,7 +265,7 @@
             "bob_bit": 1
         }
     ],
-    "2,1": [
+    "2,7": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -303,7 +303,7 @@
             "bob_bit": 1
         }
     ],
-    "2,2": [
+    "2,8": [
         {
             "alice_type": "row",
             "alice_vec": [
@@ -379,7 +379,7 @@
             "bob_bit": 1
         }
     ],
-    "3,1": [
+    "3,3": [
         {
             "alice_type": "col",
             "alice_vec": [
@@ -417,121 +417,7 @@
             "bob_bit": 1
         }
     ],
-    "3,2": [
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                0,
-                1
-            ],
-            "bob_bit": 1
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                0,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                1,
-                1
-            ],
-            "bob_bit": 1
-        }
-    ],
-    "4,0": [
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                0,
-                1
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                0,
-                0
-            ],
-            "bob_bit": 1
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                1,
-                1
-            ],
-            "bob_bit": 1
-        }
-    ],
-    "4,1": [
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                0,
-                1
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                0,
-                1,
-                0
-            ],
-            "bob_bit": 1
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                0,
-                0
-            ],
-            "bob_bit": 0
-        },
-        {
-            "alice_type": "col",
-            "alice_vec": [
-                1,
-                1,
-                1
-            ],
-            "bob_bit": 1
-        }
-    ],
-    "4,2": [
+    "3,6": [
         {
             "alice_type": "col",
             "alice_vec": [
@@ -569,7 +455,7 @@
             "bob_bit": 1
         }
     ],
-    "5,0": [
+    "4,1": [
         {
             "alice_type": "col",
             "alice_vec": [
@@ -607,7 +493,7 @@
             "bob_bit": 1
         }
     ],
-    "5,1": [
+    "4,4": [
         {
             "alice_type": "col",
             "alice_vec": [
@@ -625,6 +511,44 @@
                 0
             ],
             "bob_bit": 1
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_bit": 1
+        }
+    ],
+    "4,7": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_bit": 1
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 0
         },
         {
             "alice_type": "col",
@@ -646,6 +570,82 @@
         }
     ],
     "5,2": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_bit": 1
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_bit": 1
+        }
+    ],
+    "5,5": [
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                0,
+                1
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                0,
+                1,
+                0
+            ],
+            "bob_bit": 1
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                0,
+                0
+            ],
+            "bob_bit": 0
+        },
+        {
+            "alice_type": "col",
+            "alice_vec": [
+                1,
+                1,
+                1
+            ],
+            "bob_bit": 1
+        }
+    ],
+    "5,8": [
         {
             "alice_type": "col",
             "alice_vec": [
