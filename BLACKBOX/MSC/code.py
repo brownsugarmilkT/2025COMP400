@@ -26,19 +26,26 @@ def bit_at(vec, j):
 
 candidates = defaultdict(list)
 
-for a in range(6):               # Alice input
+for a in range(6):          # Alice line
     a_type, a_idx = decode(a)
     pool = EVEN_ROWS if a_type == "row" else ODD_COLS
 
-    for b in range(9):           # Bob input 0..8
-        r_b, c_b = cell_coords(b)
+    for b in range(9):      # Bob box 0-8
+        r_b, c_b = divmod(b, 3)
 
-        # Does Bob’s cell lie on Alice’s line?
         on_line = (a_type == "row" and r_b == a_idx) or \
                   (a_type == "col" and c_b == a_idx)
 
-        if not on_line:
-            continue  # no admissible outputs → leave list empty
+        if on_line:
+            for vec in pool:
+                bob_bit = vec[c_b] if a_type == "row" else vec[r_b]
+                candidates[(a, b)].append({
+                    "alice_type": a_type,
+                    "alice_vec":  vec,
+                    "bob_bit":    bob_bit,
+                })
+        else:
+            candidates[(a, b)] = []       # <<< add empty entry here
 
         for vec in pool:
             if a_type == "row":
