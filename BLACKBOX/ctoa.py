@@ -161,20 +161,44 @@ def success_rate(msa, msc, f_A, f_B, g_A, g_B):
 
 
 # stats
-total_tested   = 0
-perfect_hits   = 0
-best_score     = -1.0
+total_tested = 0
+perfect_hits = 0
+best_score = -1.0
 best_quadruple = None
 
 
+
+
+
 def main():
+    global total_tested, perfect_hits, best_score, best_quadruple
     ap = argparse.ArgumentParser()
-    ap.add_argument("--msa", required=True, type=Path)
-    ap.add_argument("--msc", required=True, type=Path)
+    default_msa = Path("MSA/msa_blackbox_outputs.json")
+    default_msc = Path("MSC/msc_blackbox_outputs.json")
+    ap.add_argument("--msa", type=Path, default=default_msa)
+    ap.add_argument("--msc", type=Path, default=default_msc)
+
     args = ap.parse_args()
 
     msa = load_game(args.msa)
     msc = load_game(args.msc)
+
+    def f_A_id(a): return a                      # keep Alice's line
+    def f_B_col(box): _, c = box_coords(box); return 3 + c  # Bob asks column
+    def g_A_copy(a_c, line): return line         # Alice just forwards the 3-bit line
+    def g_B_inter(box_c, line):
+        r, c = box_coords(box_c)
+        if sum(line) % 2 == 0:          # even parity → Alice’s line is a ROW
+            return line[c]              # intersection bit is at column c
+        else:                           # odd parity  → it’s a COLUMN
+            return line[r]                           # intersection bit (row case covers itself)
+
+    print("textbook score =",
+        success_rate(msa, msc, f_A_id, f_B_col, g_A_copy, g_B_inter))
+    # → textbook score = 1.0
+
+
+
 
     # Enumerators
     FA  = generate_F_A()
