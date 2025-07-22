@@ -90,6 +90,24 @@ def load_ckpt():
         return json.loads(CHECKPOINT.read_text())
     return None
 
+# ── helper to expose internals of the lambdas ───────────────────
+def dump_f_A(f_A):
+    """Return list[6] showing where each a_C maps."""
+    return [f_A(i) for i in range(6)]
+
+def dump_g_B(g_B):
+    """Return 36-bit int representing Bob’s table (row 0..2, col 0..2, orient 0/1)."""
+    bits = 0
+    for ln in range(6):
+        for pos in range(3):
+            for orient in (0, 1):
+                # fake line pattern just to query the bit
+                line = EVEN_ROWS[0] if orient == 0 else ODD_COLS[0]
+                box  = ln*3 + pos if ln < 3 else pos*3 + (ln-3)
+                bits = (bits << 1) | g_B(box, line)
+    return bits
+
+
 # ──────────────────────────  main  ──────────────────────────────
 def main():
     ap = argparse.ArgumentParser()
@@ -147,7 +165,9 @@ def main():
                            "perfect_hits": perfect_hits,
                            "best_score"  : best_score})
                 pct = 100 * total_tested / total_space
-                log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}")
+                fA_index = total_tested // (6**9 * 4**8 * 2**18)
+                log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}"
+                         f"fA_idx={fA_index:05d}  gB_bits={dump_g_B(g_B):036b}")
 
     except KeyboardInterrupt:
         log.warning("Interrupted by user – saving checkpoint and exiting.")
