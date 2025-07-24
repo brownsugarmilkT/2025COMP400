@@ -107,6 +107,11 @@ def dump_g_B(g_B):
                 bits = (bits << 1) | g_B(box, line)
     return bits
 
+def dump_f_B(f_B):
+    return [f_B(i) for i in range(9)]       # 9-entry vector
+
+def dump_g_A(g_A):
+    return [g_A(0, pat) for pat in PATTERNS]  # 8 outputs
 
 # ──────────────────────────  main  ──────────────────────────────
 def main():
@@ -167,7 +172,10 @@ def main():
                 pct = 100 * total_tested / total_space
                 fA_index = total_tested // (6**9 * 4**8 * 2**18)
                 log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}"
-                         f"fA_idx={fA_index:05d}  gB_bits={dump_g_B(g_B):036b}")
+                         f"... fA={dump_f_A(f_A)} "
+                            f"fB={dump_f_B(f_B)} "
+                            f"gA={dump_g_A(g_A)} "
+                            f"gB_bits={dump_g_B(g_B):036b}")
 
     except KeyboardInterrupt:
         log.warning("Interrupted by user – saving checkpoint and exiting.")
