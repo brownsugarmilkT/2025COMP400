@@ -90,28 +90,69 @@ def load_ckpt():
         return json.loads(CHECKPOINT.read_text())
     return None
 
-# ── helper to expose internals of the lambdas ───────────────────
-def dump_f_A(f_A):
-    """Return list[6] showing where each a_C maps."""
-    return [f_A(i) for i in range(6)]
+# # ── helper to expose internals of the lambdas ───────────────────
+# def dump_f_A(f_A):
+#     """Return list[6] showing where each a_C maps."""
+#     return [f_A(i) for i in range(6)]
 
-def dump_g_B(g_B):
-    """Return 36-bit int representing Bob’s table (row 0..2, col 0..2, orient 0/1)."""
-    bits = 0
-    for ln in range(6):
-        for pos in range(3):
-            for orient in (0, 1):
-                # fake line pattern just to query the bit
-                line = EVEN_ROWS[0] if orient == 0 else ODD_COLS[0]
-                box  = ln*3 + pos if ln < 3 else pos*3 + (ln-3)
-                bits = (bits << 1) | g_B(box, line)
-    return bits
+# def dump_g_B(g_B):
+#     """Return 36-bit int representing Bob’s table (row 0..2, col 0..2, orient 0/1)."""
+#     bits = 0
+#     for ln in range(6):
+#         for pos in range(3):
+#             for orient in (0, 1):
+#                 # fake line pattern just to query the bit
+#                 line = EVEN_ROWS[0] if orient == 0 else ODD_COLS[0]
+#                 box  = ln*3 + pos if ln < 3 else pos*3 + (ln-3)
+#                 bits = (bits << 1) | g_B(box, line)
+#     return bits
 
-def dump_f_B(f_B):
-    return [f_B(i) for i in range(9)]       # 9-entry vector
+# def dump_f_B(f_B):
+#     return [f_B(i) for i in range(9)]       # 9-entry vector
 
-def dump_g_A(g_A):
-    return [g_A(0, pat) for pat in PATTERNS]  # 8 outputs
+# def dump_g_A(g_A):
+#     return [g_A(0, pat) for pat in PATTERNS]  # 8 outputs
+
+
+
+# ---------- pretty dumps as dictionaries ----------
+
+def dump_f_A_dict(f_A):
+    # 6 entries: {0: a_A, ..., 5: a_A}
+    return {a: f_A(a) for a in range(6)}
+
+def dump_f_B_dict(f_B):
+    # 9 entries: {0: line, ..., 8: line}
+    return {b: f_B(b) for b in range(9)}
+
+def dump_g_A_dict(g_A):
+    """
+    6×8 = 48 entries:
+      key "(a,p)" where p is parity-pattern id:
+        0..3 = 000,011,101,110  (even rows)
+        4..7 = 001,010,100,111  (odd columns)
+      value = 3-bit list Alice outputs
+    """
+    d = {}
+    for a in range(6):
+        for p in range(8):
+            line = list(PATTERNS[p])
+            d[f"({a},{p})"] = list(g_A(a, line))
+    return d
+
+def dump_g_B_dict(g_B):
+    """
+    9×8 = 72 entries:
+      key "(box, p)" with box 0..8 and pattern id p 0..7
+      value = single bit Bob outputs
+    """
+    d = {}
+    for box in range(9):
+        for p in range(8):
+            line = list(PATTERNS[p])    # 3-bit vector for that pattern
+            d[f"({box},{p})"] = int(g_B(box, line))
+    return d
+
 
 # ──────────────────────────  main  ──────────────────────────────
 def main():
@@ -165,17 +206,34 @@ def main():
             elif score > best_score:
                 best_score = score
 
+            # if total_tested % SAVE_EVERY == 0:
+            #     save_ckpt({"total_tested": total_tested,
+            #                "perfect_hits": perfect_hits,
+            #                "best_score"  : best_score})
+            #     pct = 100 * total_tested / total_space
+            #     fA_index = total_tested // (6**9 * 4**8 * 2**18)
+            #     log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}"
+            #              f"... fA={dump_f_A(f_A)} "
+            #                 f"fB={dump_f_B(f_B)} "
+            #                 f"gA={dump_g_A(g_A)} "
+            #                 f"gB_bits={dump_g_B(g_B):036b}")
             if total_tested % SAVE_EVERY == 0:
                 save_ckpt({"total_tested": total_tested,
-                           "perfect_hits": perfect_hits,
-                           "best_score"  : best_score})
+                        "perfect_hits": perfect_hits,
+                        "best_score"  : best_score})
                 pct = 100 * total_tested / total_space
-                fA_index = total_tested // (6**9 * 4**8 * 2**18)
-                log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}"
-                         f"... fA={dump_f_A(f_A)} "
-                            f"fB={dump_f_B(f_B)} "
-                            f"gA={dump_g_A(g_A)} "
-                            f"gB_bits={dump_g_B(g_B):036b}")
+
+                # dictionaries in the exact shapes your prof asked for
+                fa_dict = dump_f_A_dict(f_A)
+                fb_dict = dump_f_B_dict(f_B)
+                ga_dict = dump_g_A_dict(g_A)
+                gb_dict = dump_g_B_dict(g_B)
+
+                log.info(f"[{total_tested:,}]  {pct:.3e}%  best={best_score:.3f}\n"
+                        f"  fA: {fa_dict}\n"
+                        f"  fB: {fb_dict}\n"
+                        f"  gA: {ga_dict}\n"
+                        f"  gB: {gb_dict}")
 
     except KeyboardInterrupt:
         log.warning("Interrupted by user – saving checkpoint and exiting.")
