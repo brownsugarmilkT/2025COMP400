@@ -223,7 +223,7 @@ def main():
                         "best_score"  : best_score})
                 pct = 100 * total_tested / total_space
 
-                # dictionaries in the exact shapes your prof asked for
+                # dictionaries
                 fa_dict = dump_f_A_dict(f_A)
                 fb_dict = dump_f_B_dict(f_B)
                 ga_dict = dump_g_A_dict(g_A)
